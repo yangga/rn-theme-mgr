@@ -1,0 +1,31 @@
+{
+  "name": "rn-theme-mgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangga/rn-theme-mgr.git"
+  },
+  "keywords": [],
+  "author": "Jake Yang <yangga0070@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangga/rn-theme-mgr/issues"
+  },
+  "homepage": "https://github.com/yangga/rn-theme-mgr#readme",
+  "devDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.60.0",
+    "typescript": "^3.7.5",
+    "typings": "^2.1.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.60.0"
+  }
+}
