@@ -32,7 +32,10 @@ export function initTheme<TypeTheme>(defaultTheme: TypeTheme) {
       </ThemeContext.Provider>
     );
   };
-  const useTheme = () => React.useContext(ThemeContext);
+  const useTheme = (): {
+    theme: TypeTheme;
+    setTheme: (newTheme: TypeTheme) => void;
+  } => React.useContext(ThemeContext);
 
   const StyleSheet = {
     create<T extends NamedStyles<T> | NamedStyles<any>>(
