@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/yangga/rn-theme-mgr#readme",
   "devDependencies": {
+    "@types/react": ">=16.0.0",
+    "@types/react-native": ">=0.60.0",
     "react": ">=16.0.0",
     "react-native": ">=0.60.0",
     "typescript": "^3.7.5",
