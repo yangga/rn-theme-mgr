@@ -18,14 +18,14 @@ npm i -S rn-theme-mgr
 
 ```javascript
 // @defaultTheme.ts
-// desc: declares default theme variables here
+// desc: declares default theme variables here (YOU NEED TO CREATE THIS)
 export default {
     primaryColor: "#f0f"
     ...
 }
 
 // @theme.tsx
-// desc: writing code like below
+// desc: writing code like below (YOU NEED TO CREATE THIS)
 import { initTheme } from "rn-theme-mgr";
 import defaultTheme from "./defaultTheme";
 
