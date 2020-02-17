@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/yangga/rn-theme-mgr.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react-native",
+    "theme",
+    "typescript"
+  ],
   "author": "Jake Yang <yangga0070@gmail.com>",
   "license": "ISC",
   "bugs": {
